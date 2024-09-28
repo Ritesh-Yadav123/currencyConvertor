@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(245, 200, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    padding: 3vh;
+    background-color: aliceblue;
+    margin-top: 30vh;
+    border-radius: 10px;
+}
+.container {
+    margin-bottom: 5px;
+}
+.amount input {
+    height: 33px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.dropdown{
+    display: flex;
+    margin: 14px;
+}
+.select-container img{
+    height: 50px;
+    width: 60px;
+}
+
+.from, .to {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 30px;
+    box-shadow: 2px 2px 5px blue;
+}
+.fa-solid{
+    font-size: 45px;
+    position: relative;
+    top: 58px;
+}
+.from select, .to select{
+    position: relative;
+    right: 42px;
+    top:13px;
+    height: 23px;
+    width: 104px;
+}
+
+button {
+    background-color: purple;
+    cursor: pointer;
+    height: 33px;
+    padding: 12px;
+    box-shadow: none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.msg {
+    background-color: rgb(43, 255, 0);
+    margin: 12px;
+    text-align: center;
+    font-size: 34px;
+}
